@@ -8,12 +8,12 @@ def button_clicked():
 #window
 window = Tk()
 window.title("Mile to Km Converter")
-window.minsize(width=300, height=100)
+window.minsize(width=200, height=100)
 window.config(padx=40,pady=10)
 
 #entry 
 input = Entry()
-input.config(width=15)
+input.config(width=7)
 input.grid(column=1, row=0)
 
 #label1
